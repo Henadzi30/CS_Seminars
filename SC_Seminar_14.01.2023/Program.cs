@@ -17,6 +17,7 @@ else
     // Console.WriteLine("max");
     // Console.WriteLine(lastDigit);
     // Console.WriteLine("min");
-    // Console.WriteLine(firstDigit);           
+    // Console.WriteLine(firstDigit);
+    // Console.WriteLine("max " + firstDigit + " min " + lastDigit);           
     Console.WriteLine($"max {lastDigit}, min {firstDigit}");
 }
