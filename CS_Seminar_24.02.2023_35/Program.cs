@@ -7,13 +7,13 @@
 // [10, 11, 12, 13, 14] -> 5
 // Console.WriteLine("Hello, World!");
 
+
 int ReadNumber(string massageToUser)
 {
     Console.WriteLine(massageToUser);
     int value = Convert.ToInt32(Console.ReadLine());
     return value;
 }
-
 int[] GetRandomArray(int length, int leftBorder, int rightBorder)
 {
     int[] array = new int[length];
