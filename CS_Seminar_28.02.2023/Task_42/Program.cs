@@ -55,12 +55,12 @@ ReversArray(binaryNumber);
 Console.WriteLine($"Результат преобразования десятичного числа {numberFromUser} в двоичное: {string.Join("", binaryNumber)}");
 
 // Другой вариант
-int n = 44;
+int nn = 44;
 
-void PrintBinary(int n)
+void PrintBinary(int nn)
 {
-    if (n == 0) return;
-    PrintBinary(n / 2);
-    Console.Write(n % 2);
+    if (nn == 0) return;
+    PrintBinary(nn / 2);
+    Console.Write(nn % 2);
 }
-PrintBinary(n);
+PrintBinary(nn);
